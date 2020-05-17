@@ -314,7 +314,7 @@ Change those three ‘true’s to ‘false’s. The purpose of this ‘true/fals
 
 Whenever you need to mine new genesis blocks because you changed something that invalidated the old one during development, you will come back to chainparams.cpp, update the date parameters and timestamp string, make the three true/false edits, recompile, do
 
-rm -rf ~/.newcoin
+rm -rf ~/.newcoind
 
 so it doesn’t see the (now) wrong former genesis block in the data there, and run it.
 
